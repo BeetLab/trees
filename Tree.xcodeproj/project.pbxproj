@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		218CDCC3225F92130087876C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CDCC2225F92130087876C /* main.swift */; };
+		218CDCCB225F92360087876C /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CDCCA225F92360087876C /* Node.swift */; };
+		218CDCCE225F92D30087876C /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CDCCD225F92D30087876C /* BinaryTree.swift */; };
+		218CDCD12260B97D0087876C /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CDCD02260B97D0087876C /* AVLNode.swift */; };
+		218CDCD32260BA340087876C /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CDCD22260BA340087876C /* AVLTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		218CDCBF225F92130087876C /* Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tree; sourceTree = BUILT_PRODUCTS_DIR; };
 		218CDCC2225F92130087876C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		218CDCCA225F92360087876C /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		218CDCCD225F92D30087876C /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		218CDCD02260B97D0087876C /* AVLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
+		218CDCD22260BA340087876C /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2162ECD0226F6B730023A52F /* red black */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "red black";
+			sourceTree = "<group>";
+		};
 		218CDCB6225F92130087876C = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +72,30 @@
 		218CDCC1225F92130087876C /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				2162ECD0226F6B730023A52F /* red black */,
+				218CDCCF2260B95A0087876C /* avl */,
+				218CDCCC225F92B40087876C /* Binary Tree */,
 				218CDCC2225F92130087876C /* main.swift */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		218CDCCC225F92B40087876C /* Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				218CDCCD225F92D30087876C /* BinaryTree.swift */,
+				218CDCCA225F92360087876C /* Node.swift */,
+			);
+			path = "Binary Tree";
+			sourceTree = "<group>";
+		};
+		218CDCCF2260B95A0087876C /* avl */ = {
+			isa = PBXGroup;
+			children = (
+				218CDCD22260BA340087876C /* AVLTree.swift */,
+				218CDCD02260B97D0087876C /* AVLNode.swift */,
+			);
+			path = avl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				218CDCC3225F92130087876C /* main.swift in Sources */,
+				218CDCD12260B97D0087876C /* AVLNode.swift in Sources */,
+				218CDCCB225F92360087876C /* Node.swift in Sources */,
+				218CDCCE225F92D30087876C /* BinaryTree.swift in Sources */,
+				218CDCD32260BA340087876C /* AVLTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
